@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction of css</title>
+    <style>
+        *{
+            background-color: cadetblue;
+        }
+        h1{
+            color: darkblue;
+        }
+        h2{
+            color:darkgreen;
+        }
+        h4{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Understanding CSS</h1>
+    <p>An introduction covering what css is, why we use it, who inverted it, versions, responsive design, layouts, and styling methods.</p>
+    <h2>What is CSS?</h2>
+    <p><b>CSS</b> stands for <b>Cascading style sheets.</b> it is a style sheet language used to describe the presentation(look and feel) of a document written in <b>HTML,</b> It controls responsiveness, etc.</p>
+    <p><em>symply put: HTML is the structure(skeleton),CSS is the style (clothes/skin)</em></p>
+    <h2>Why is CSS used?</h2>
+    <ul>
+        <li>separation of content & design -> HTML handles content, CSS handles design.</li>
+        <li>Reusability -> one CSS file can style multiple HTML pages.</li>
+        <li>Consistency -> Keeps the look & feel uniform across a website.</li>
+        <li>Responsive design -> Makes website adapt to different devices(pc,Tablet,Mobile).</li>
+        <li>Faster development -> Change style in one place and it reflects everywhere.</li>
+    </ul>
+    <h1>Who invented CSS?</h1>
+    <p><b>Hakon Wium Lie </b>and<b> Bert Bos</b> invented CSS in <b>1994</b></p>
+
+    <h2>Present version of CSS</h2>
+    <p>The latest stable version is <b>CSS3</b>(introduced between 1999-2011). CSS3 is modular, divided in to parts like selectors, Backgrounds, Animations, Flexbox, and Grid. Work continues with new features (sometimes informally called <em>CSS4</em>), but there is no single official CSS4 version</p>
+    <h2>Responsive Web Design (RWD) </h2>
+    <p>Responsive design ensures websites adjust automatically to desktops, tablets, and phones. Achieved using</p>
+    <ul>
+        <li><b>Media queries</b>(@media screen and (max-width:768px) { .... })</li>
+        <li><b>Flexible layouts</b>(Flexbox, CSS Grid)</li>
+        <li><b>Fluid images & percentages</b> instead of fixed pixels</li>
+    </ul>
+    <h2>CSS Layouts</h2>
+    <ol>
+        <li>Normal Flow (default)</li>
+        <li>Box Model (margin, border, padding, content)</li>
+        <li>Positioning (static, relative, absolute, fixed, sticky)</li>
+        <li>Flexbox(1D layout - row or coiumn)</li>
+        <li>CSS Grid (2D layout - rows + columns)</li>
+        <li>Responsive layouts with media queries</li>
+    </ol>
+    <h2>Styling Methods in CSS</h2>
+    <h4>1. Inline CSS</h4>
+    <p>written inside the HTML tag using the style attribute. useful for quick testing, but not recommended for large projects.</p>
+    <h4>2. Intenal CSS</h4>
+    <p>Defined inside a style tag within the HTML file (inside head). Good for small projects or single-page sites</p>
+    <h4>3. External CSS</h4>
+    <p>Written in a separate CSS file and linked with a <link> tag. Best practice for large websites and reusability.<br>This page provides an introduction to CSS</p>
+
+
+
+    
+</body>
+</html>
